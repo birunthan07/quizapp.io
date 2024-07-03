@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#quizContainer {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#timer {
+    background-size: ring;
+    width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #00ff00; /* green */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  
+}
+
+.timer.red {
+  background-color: #ff0000; /* red */
+}
+
+
+
+#optionsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#optionsList li {
+    margin: 10px 0;
+}
+
+#submitAnswer, #restartQuiz {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* position: center; */
+}
+
+#resultCard {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.button{
+  padding: 40px;
+  margin-left:500px;
+}
+
+#button html{
+    background-color: #2e3cab;
+}
+
+.buttonquestion{
+    margin-left: 1000px;
+}
+.correct{
+    background-color: #00ff00;
+}
+.incorrect{
+    background-color: #ff0000;
+}
